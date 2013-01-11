@@ -304,6 +304,35 @@ in the museum's Flickr photo storage account online."
 "The Astrometry.net robot makes astrometry much easier! It finds photos of the night sky on Flickr and auto-
 matically annotates them with astronomical information using notes and machine tags."
 
+Pleiades
+--
+
+### [Eye on the sidebar: related photos from Flickr](http://pleiades.stoa.org/Members/sgillies/news-items/eye-on-the-sidebar-related-photos-from-flickr)
+
+### [horothesia: Feeds of Flickr Photos Depicting Pleiades Places](http://horothesia.blogspot.com/2011/09/feeds-of-flickr-photos-depicting.html?showComment=1315702618822#c7274402062046474461)
+
+"Some months ago, ISAW started adding Pleiades machine tags to the Ancient World
+Image Bank (AWIB) photos we've been uploading to Flickr. This post will explain
+what that means, how it might be useful to you and how you can add Pleiades
+machine tags to your own photos so we can find out about them."
+
+### [Flickr Developer Blog » Pleiades: A guest post](http://code.flickr.com/blog/2011/12/16/pleiades-a-guest-post/)
+
+"We’re editing (in this one way) Pleiades pages entirely via Flickr. We get a
+kick out of this sort of thing at Pleiades. Not only do we love to see small
+pieces loosely joined in action, we also love not reinventing applications that
+already exist."
+
+### [Pleiades tags on Flickr, continued](http://sgillies.net/blog/1164/pleiades-tags-on-flickr-continued/) 
+
+"Flickr reports almost 7000 photos with pleiades:*= tags:
+http://www.flickr.com/photos/tags/pleiades:*=/. Of these, over 4800 use
+pleiades:depicts= to indicate that they depict the site(s) of an ancient place;
+the ancient place, or what remains of it, is the subject of the photo. Over 1500
+photos use pleiades:findspot= to indicate that the subject of the photo was
+found in the context of the ancient place. The pleiades:origin= tag is another
+interesting one and Flickr has almost 200 of these."
+
 noticin.gs
 --
 

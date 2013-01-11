@@ -9,13 +9,9 @@ waiting for another task to complete and it will stir your imagination and send 
 really have said this much about “machine tags” and it really is this varied and
 this interesting!_ 
 
-This is an early draft and re-jiggering of that original document which was
-produced as a PDF file. The formatting (as Markdown) probably still needs some
-finessing.
-
 The order and structure of the content reflects how I chose arrange this in
 document 2010. There's nothing precious about and it is entirely open to being
-changed, especially as new entries are added.
+changed, especially as new entries are added (and they are!).
 
 Sadly, there's probably a some amount of linkrot so it might be worth archiving
 local copies of links (somewhere in this repository).
