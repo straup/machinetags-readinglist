@@ -1,21 +1,22 @@
+machinetags-readinglist
+==
 
-Machine Tags: Theory, Working Code and Gotchas (and Robots!)
-Aaron Straup Cope
+This document was originally compiled for the `Machine Tags: Theory, Working Code and Gotchas (and Robots!)` workshop at the 2010 Museums and the Web conference, in Denver. This is what I wrote at the time:
 
-Museums and the Web
-April 2010, Denver
-
-Machine Tags / 1
-
+_This is an outrageously long reading list. It is not expected that youʼll sit down one day and diligently visit each 
+site. Rather, I hope that you will hang on to this list as something you might think to look at over coffee or while youʼre 
+waiting for another task to complete and it will stir your imagination and send you off in an entirely other direction. People 
+really have said this much about “machine tags” and it really is this varied and this interesting!_
 
 
-“Introducing Machine Tags”
+Introducing Machine Tags
+--
+
 This is an excepted version of a piece originally published on Flickr, 24 January 2007
 
 http://www.flickr.com/groups/api/discuss/72157594497877875
-http://sta.mn/s9
 
-What are machine tags?
+### What are machine tags?
 
 Machine tags are tags that use a special syntax to define extra information about a tag.
 
@@ -26,72 +27,45 @@ a tag belongs to ('geo', 'flickr', etc.) The predicate is name of the property f
 Like tags, there are no rules for machine tags beyond the syntax to specify the parts of a machine tag. 
 For example, you could tag a photo with :
 
-  * flickr:user=straup
+* flickr:user=straup
 
-  * flora:tree=coniferous
+* flora:tree=coniferous
 
-  * medium:paint=oil
+* medium:paint=oil
 
-  * geo:quartier="plateau mont royal"
+* geo:quartier="plateau mont royal"
 
-  * geo:neighbourhood=geo:quartier
+* geo:neighbourhood=geo:quartier
 
 Flickr has already used machine tags, informally, on a couple of occasions :
 
-  - When we launched Maps, we provided a way for people who had "geotagged" their 
+* When we launched Maps, we provided a way for people who had "geotagged" their 
 photos to import their location data. This was done using the "geo:lat=..." and "geo:lon=..." tags.
 
-  - When a user tags an event with an upcoming ID (for example : 
+* When a user tags an event with an upcoming ID (for example : 
 "upcoming:event=81334") we display a link back to the upcoming.orgsite. A similar example is the excel-
-lent "Flickr Upcoming Event" greasemonkey script :
+lent "Flickr Upcoming Event" greasemonkey script : http://userscripts.org/scripts/show/5464
 
-  http://userscripts.org/scripts/show/5464
-  http://sta.mn/vdb
-
-Dan Catt wrote a very good piece about machine tags - he called them "triple tags" - last year :
-
-  http://geobloggers.com/2006/01/11/advanced-tagging-and-tripletags/
-  http://sta.mn/hwq
+Dan Catt wrote a very good piece about machine tags - he called them "triple tags" - last year : http://geobloggers.com/2006/01/11/advanced-tagging-and-tripletags/
 
 Update : Dan's gone and written another excellent piece about all of this stuff now that we've launched 
-machine tags:
+machine tags: http://geobloggers.com/2007/01/24/offtopic-ish-flickr-ramps-up-triple-tag-support/
 
-  http://geobloggers.com/2007/01/24/offtopic-ish-flickr-ramps-up-triple-tag-support/
-  http://sta.mn/jg
-
-What is the spec for machine tags?
+### What is the spec for machine tags?
 
 Machine tags are divided in to three parts :
 
-Machine Tags / 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1) A "namespace" :
+* A "namespace" :
 
 Namespaces MUST begin with any character between a - z; remaining characters MAY be a - z, 0 - 9 and 
 underbars. Namespaces are case-insensitive. 
 
-2) A "predicate" :
+* A "predicate" :
 
 Predicates MUST begin with any character between a - z; remaining characters MAY be a - z, 0 - 9 and 
 underbars. Namespaces are case-insensitive. 
 
-3) A "value" :
+* A "value" :
 
 Values MAY contain any characters that a "plain vanilla" tags use. Values may also contain spaces but, 
 like regular tags, they need to wrapped in quotes.
@@ -102,11 +76,11 @@ Predicates and values are separated by an equals symbol : "="
 
 For example :
 
-  * flickr:user=straup
+* flickr:user=straup
 
-  * geo:locality="san francisco"
+* geo:locality="san francisco"
 
-How do I add machine tags?
+### How do I add machine tags?
 
 By adding tags! No, really.
 
@@ -117,7 +91,7 @@ When the Flickr supercomputer processes your tags, we take a moment to check
 whether it is a machine tag. If it is we leverage the powerful Do What I Mean engine to, well, do what you 
 mean.
 
-How do I query machine tags?
+### How do I query machine tags?
 
 Via the API!
 
@@ -129,52 +103,48 @@ Can I query the various part of a machine tag?
 Yes. Aside from passing in a fully formed machine tag, there is a special syntax for searching on specific 
 properties : 
 
-  * Find photos using the 'dc' namespace :
+* Find photos using the 'dc' namespace :
 
-  {"machine_tags" => "dc:"}
+	{"machine_tags" => "dc:"}
 
-  * Find photos with a title in the 'dc' namespace :
+* Find photos with a title in the 'dc' namespace :
 
-Machine Tags / 3
+	{"machine_tags" => "dc:title="}
 
+* Find photos titled "mr. camera" in the 'dc' namespace :
 
+	{"machine_tags" => "dc:title=\"mr. camera\"}
 
-  {"machine_tags" => "dc:title="}
+* Find photos whose value is "mr. camera" :
 
-  * Find photos titled "mr. camera" in the 'dc' namespace :
+	{"machine_tags" => "*:*=\"mr. camera\""}
 
-  {"machine_tags" => "dc:title=\"mr. camera\"}
+* Find photos that have a title, in any namespace : 
 
-  * Find photos whose value is "mr. camera" :
+	{"machine_tags" => "*:title="}
 
-  {"machine_tags" => "*:*=\"mr. camera\""}
+* Find photos that have a title, in any namespace, whose value is "mr. camera" : 
 
-  * Find photos that have a title, in any namespace : 
+	{"machine_tags" => "*:title=\"mr. camera\""}
 
-  {"machine_tags" => "*:title="}
+* Find photos, in the 'dc' namespace whose value is "mr. camera" :
 
-  * Find photos that have a title, in any namespace, whose value is "mr. camera" : 
+	{"machine_tags" => "dc:*=\"mr. camera\""}
 
-  {"machine_tags" => "*:title=\"mr. camera\""}
-
-  * Find photos, in the 'dc' namespace whose value is "mr. camera" :
-
-  {"machine_tags" => "dc:*=\"mr. camera\""}
-
-Are machine tag namespaces reserved?
+### Are machine tag namespaces reserved?
 
 No. Anyone can use a namespace for anything they want.
 
 If you are concerned about colliding namespaces you should consider adding an additional machine tag 
 to define your namespace. For example :
 
-  dc:subject=tags
-  xmlns:dc=http://purl.org/dc/elements/1.1/
+	dc:subject=tags
+	xmlns:dc=http://purl.org/dc/elements/1.1/
 
 Like tags, in general, we expect (hope?) that the community will develop its own standards by consensus 
 over time.
 
-Is the predicate *really* a predicate?
+### Is the predicate _really_ a predicate?
 
 You are in a dark cave. In the corner is a fire and a man making bunny shadows on the wall with his 
 hands. Whether or not it's really a 'predicate' depends on how much time you spend on the semantic-web  
@@ -182,203 +152,77 @@ mailing list. ;-)
 
 It's close enough to being a predicate that it makes for a good short-hand.
 
-Wait, aren't machine tags just RDF?
+### Wait, aren't machine tags just RDF?
 
 No, machine tags are not RDF; they could play RDF on television, though.
 
-See also : 
+See also : http://weblog.scifihifi.com/2005/08/05/meta-tags-the-poor-mans-rdf
 
-  http://weblog.scifihifi.com/2005/08/05/meta-tags-the-poor-mans-rdf
-
-Huh, what is RDF ?
+### Huh, what is RDF ?
 
 RDF Describes Flickr. That's really all you need to know about RDF. 
 
-Machine Tags / 4
+The story we (flickr) told ourselves
+==
 
+### Introducing Machine Tags
 
-
-
-
-(A short history of search at Flickr)
-
-Machine Tags / 5
-
-
-
-def·prepare_part(part):
-····part·=·part.replace("8",·"88")
-····part·=·part.replace("_",·"8u")
-····return·part
-
-def·prepare_mt(namespace,·predicate,·value):
-
-····ns·=·prepare_part(namespace)
-····pred·=·prepare_part(predicate)
-····value·=·prepare_part(value)
-
-····mt·=·[
-········"%s8c"·%·ns,
-········"%s8c%s8e"·%·(ns,·pred),
-········"%s8c%s8e%s"·%·(ns,·pred,·value),
-········"8e%s"·%·value,
-········"8c%s"·%·pred,
-········"8c%s8e%s"·%·(pred,·value),
-········]
-
-····return·mt
-
-(Real search engines for real search; note real search engines really hate semi-colons)
-
-Machine Tags / 6
-
-
-
-Recognizing Machine Tags and Machine Tag “Extras”
-
-Machine Tags / 7
-
-
-
-UNIQUE KEY namespace (namespace,predicate),
-KEY ns (namespace,pub_count,predicate),
-KEY pred (predicate,namespace,pub_count),
-KEY last_seen (date_last_seen)
-
-UNIQUE KEY `value` (namespace,predicate,`value`),
-KEY predicate (predicate,`value`,pub_count),
-KEY namespace (namespace,`value`,pub_count),
-KEY date_last_seen (date_last_seen),
-KEY namespace_2 (namespace,predicate,date_last_seen),
-KEY namespace_3 (namespace,date_last_seen),
-KEY namespace_4 (namespace,predi-
-cate,pub_count,date_last_seen),
-KEY namespace_5 (namespace,predicate,date_last_seen)
-
-Machine Tag Hierarchies
-
-Machine Tags / 8
-
-
-
-Machine Tags / 9
-
-
-
-http://del.icio.us/straup/machinetags
-http://del.icio.us/straup/mw10mt
-
-READING LIST
- This is an outrageously long reading list. It is not expected that youʼll sit down one day and diligently visit each 
-site. Rather, I hope that you will hang on to this list as something you might think to look at over coffee or while youʼre 
-waiting for another task to complete and it will stir your imagination and send you off in an entirely other direction. People 
-really have said this much about “machine tags” and it really is this varied and this interesting!
-
-the story we (flickr) told ourselves
-
-Introducing Machine Tags
-“We are rolling out a new feature called "machine tags" that allows users to be more precise in how they tag, 
-and how they search, their photos.”
+"We are rolling out a new feature called "machine tags" that allows users to be more precise in how they tag, 
+and how they search, their photos."
 
 http://www.flickr.com/groups/api/discuss/72157594497877875/
-http://sta.mn/s9
 
-Code: Flickr Developer Blog » Machine Tags, last.fm and RockʼnʼRoll
+### Code: Flickr Developer Blog » Machine Tags, last.fm and RockʼnʼRoll
 
 http://code.flickr.com/blog/2008/08/28/machine-tags-lastfm-and-rocknroll/
-http://www.sta.mn/w3
 
-Code: Flickr Developer Blog: Wildcard Machine Tag URLs
+### Code: Flickr Developer Blog: Wildcard Machine Tag URLs
 
-“Which brings us to the part where I tell you that weʼve added the ability to search for machine tagged photos in 
+"Which brings us to the part where I tell you that weʼve added the ability to search for machine tagged photos in 
 plain old tag URLs (as well as in tag searches on the Flickr search page) using the facetted query syntax that 
-has always been available in the API.”
+has always been available in the API."
 
 http://code.flickr.com/blog/2008/07/18/wildcard-machine-tag-urls/
-http://www.sta.mn/xn
 
-Code: Flickr Developer Blog : Machine Tag Hierarchies
+### Code: Flickr Developer Blog : Machine Tag Hierarchies
 
-“For example, lots of people have added exif: related machine tags to their photos but there hasnʼt been a way 
+"For example, lots of people have added exif: related machine tags to their photos but there hasnʼt been a way 
 to know what kind of EXIF data has been added: exif:model? exif:focal_length? exif:tunablaster? Or what about 
 all the planespotters who have been diligently adding machine tags to their photos using the aero namespace: 
-What are the predicates that theyʼre tagging their photos with?”
+What are the predicates that theyʼre tagging their photos with?"
 
 http://code.flickr.com/blog/2008/12/15/machine-tag-hierarchies/
-http://www.sta.mn/3d
 
-Code: Flickr Developer Blog : extra:extra=extra
-“Machine tag “extras” are what we call the entire process of using a machine tag as a kind of foreign key to 
-access data stored on another website. Small pieces (of data) loosely joined (by the Internets).”
+### Code: Flickr Developer Blog : extra:extra=extra
+
+"Machine tag 'extras' are what we call the entire process of using a machine tag as a kind of foreign key to 
+access data stored on another website. Small pieces (of data) loosely joined (by the Internets)."
 
 http://code.flickr.com/blog/2009/07/06/extraextraextra/
-http://sta.mn/b3
 
-Code: Flickr Developer Blog: “Thatʼs maybe a bit too dorky, even for us.”
+### Code: Flickr Developer Blog: Thatʼs maybe a bit too dorky, even for us.
 
-“The technical terms for this process is “Adding the machine tags extra love“. You may have noticed that there 
+"The technical terms for this process is “Adding the machine tags extra love“. You may have noticed that there 
 are a bunch of other key-value pairs in that example, like the name of the architect, that we donʼt do anything 
 with. Which attributes are we looking for, then? The short answer is: Not most of them. The complete list of map 
 features in OSM is a bit daunting in scope and constantly changing. It would be nice to imagine that we could 
-
-Machine Tags / 10
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 keep pace with the discussions and the churn but thatʼs just not going to happen. If nothing else, the transla-
-tions alone would become unmanageable.”
+tions alone would become unmanageable."
 
 http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/
-http://sta.mn/wb
 
-Code: Flickr Developer Blog: Small Bridges (to Proximate Spaces)
+### Code: Flickr Developer Blog: Small Bridges (to Proximate Spaces)
 
-“You can either add the special machine tag yourself or ask noticin.gs to do it for you automatically. To enable 
+"You can either add the special machine tag yourself or ask noticin.gs to do it for you automatically. To enable 
 automagic machine tagging youʼll need to log in to noticin.gs and change the default settings. If youʼre worried 
 about creating yet another account for an yet another online service, donʼt be: noticin.gs uses the Flickr Auth 
 API itself to manage user accounts so “logging in” is as simple as authorizing noticin.gs to access your Flickr 
-account (the way you would any other Flickr API application).”
+account (the way you would any other Flickr API application)."
 
 http://code.flickr.com/blog/2009/10/19/small-bridges-to-proximate-spaces/
-http://sta.mn/vzj
 
-stuff that's influenced me along the way
+Stuff that's influenced me along the way
+--
 
 Simon Willisonʼs notes from Tom Coatesʼ “Native to a Web of Data"
 
