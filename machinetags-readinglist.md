@@ -66,17 +66,17 @@ machine tags: http://geobloggers.com/2007/01/24/offtopic-ish-flickr-ramps-up-tri
 
 Machine tags are divided in to three parts :
 
-* A "namespace" :
+#### A "namespace" :
 
 Namespaces MUST begin with any character between a - z; remaining characters MAY be a - z, 0 - 9 and 
 underbars. Namespaces are case-insensitive. 
 
-* A "predicate" :
+#### A "predicate" :
 
 Predicates MUST begin with any character between a - z; remaining characters MAY be a - z, 0 - 9 and 
 underbars. Namespaces are case-insensitive. 
 
-* A "value" :
+#### A "value" :
 
 Values MAY contain any characters that a "plain vanilla" tags use. Values may also contain spaces but, 
 like regular tags, they need to wrapped in quotes.
@@ -114,31 +114,32 @@ Can I query the various part of a machine tag?
 Yes. Aside from passing in a fully formed machine tag, there is a special syntax for searching on specific 
 properties : 
 
-* Find photos using the 'dc' namespace :
+#### Find photos using the 'dc' namespace :
 
 	{"machine_tags" => "dc:"}
 
-* Find photos with a title in the 'dc' namespace :
+
+#### Find photos with a title in the 'dc' namespace :
 
 	{"machine_tags" => "dc:title="}
 
-* Find photos titled "mr. camera" in the 'dc' namespace :
+#### Find photos titled "mr. camera" in the 'dc' namespace :
 
 	{"machine_tags" => "dc:title=\"mr. camera\"}
 
-* Find photos whose value is "mr. camera" :
+#### Find photos whose value is "mr. camera" :
 
 	{"machine_tags" => "*:*=\"mr. camera\""}
 
-* Find photos that have a title, in any namespace : 
+#### Find photos that have a title, in any namespace : 
 
 	{"machine_tags" => "*:title="}
 
-* Find photos that have a title, in any namespace, whose value is "mr. camera" : 
+#### Find photos that have a title, in any namespace, whose value is "mr. camera" : 
 
 	{"machine_tags" => "*:title=\"mr. camera\""}
 
-* Find photos, in the 'dc' namespace whose value is "mr. camera" :
+#### Find photos, in the 'dc' namespace whose value is "mr. camera" :
 
 	{"machine_tags" => "dc:*=\"mr. camera\""}
 
@@ -183,11 +184,11 @@ and how they search, their photos."
 
 http://www.flickr.com/groups/api/discuss/72157594497877875/
 
-### Code: Flickr Developer Blog » Machine Tags, last.fm and RockʼnʼRoll
+### Flickr Developer Blog » Machine Tags, last.fm and RockʼnʼRoll
 
 http://code.flickr.com/blog/2008/08/28/machine-tags-lastfm-and-rocknroll/
 
-### Code: Flickr Developer Blog: Wildcard Machine Tag URLs
+### Flickr Developer Blog: Wildcard Machine Tag URLs
 
 "Which brings us to the part where I tell you that weʼve added the ability to search for machine tagged photos in 
 plain old tag URLs (as well as in tag searches on the Flickr search page) using the facetted query syntax that 
@@ -195,7 +196,7 @@ has always been available in the API."
 
 http://code.flickr.com/blog/2008/07/18/wildcard-machine-tag-urls/
 
-### Code: Flickr Developer Blog : Machine Tag Hierarchies
+### Flickr Developer Blog : Machine Tag Hierarchies
 
 "For example, lots of people have added exif: related machine tags to their photos but there hasnʼt been a way 
 to know what kind of EXIF data has been added: exif:model? exif:focal_length? exif:tunablaster? Or what about 
@@ -204,14 +205,14 @@ What are the predicates that theyʼre tagging their photos with?"
 
 http://code.flickr.com/blog/2008/12/15/machine-tag-hierarchies/
 
-### Code: Flickr Developer Blog : extra:extra=extra
+### Flickr Developer Blog : extra:extra=extra
 
 "Machine tag 'extras' are what we call the entire process of using a machine tag as a kind of foreign key to 
 access data stored on another website. Small pieces (of data) loosely joined (by the Internets)."
 
 http://code.flickr.com/blog/2009/07/06/extraextraextra/
 
-### Code: Flickr Developer Blog: Thatʼs maybe a bit too dorky, even for us.
+### Flickr Developer Blog: Thatʼs maybe a bit too dorky, even for us.
 
 "The technical terms for this process is “Adding the machine tags extra love“. You may have noticed that there 
 are a bunch of other key-value pairs in that example, like the name of the architect, that we donʼt do anything 
@@ -222,7 +223,7 @@ tions alone would become unmanageable."
 
 http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/
 
-### Code: Flickr Developer Blog: Small Bridges (to Proximate Spaces)
+### Flickr Developer Blog: Small Bridges (to Proximate Spaces)
 
 "You can either add the special machine tag yourself or ask noticin.gs to do it for you automatically. To enable 
 automagic machine tagging youʼll need to log in to noticin.gs and change the default settings. If youʼre worried 
@@ -235,7 +236,7 @@ http://code.flickr.com/blog/2009/10/19/small-bridges-to-proximate-spaces/
 Stuff that's influenced me along the way
 --
 
-### Simon Willisonʼs notes from Tom Coatesʼ “Native to a Web of Data"
+### Simon Willisonʼs notes from Tom Coatesʼ "Native to a Web of Data"
 
 "Start designing with data (objects), not with pages"
 
@@ -247,7 +248,7 @@ http://simonwillison.net/notes/2006/summit/coates.txt
 
 http://xtech06.usefulinc.com/schedule/paper/135
 
-### Mobile Social Location (Matt Biddulph)
+### Matt Biddulph: Mobile Social Location
 
 "Concordance A major problem when you work with disparate large datasets is mapping information from data-
 set to dataset. A concordance between two datasets (e.g. mapping from Yahooʼs WOE place IDs to Geonames 
@@ -264,11 +265,11 @@ http://drmacros-xml-rants.blogspot.com/2006/02/i-was-wrong-sort-of-about-namespa
 Paul Mison
 --
 
-### Flickr, EXIF, Machine Tags (Paul Mison)
+### Paul Mison: Flickr, EXIF, Machine Tags
 
 http://blech.vox.com/library/post/flickr-exif-machine-tags.html
 
-### snaptrip: some thoughts (Paul Mison)
+### Paul Mison: Snaptrip: some thoughts
 
 "Why a website? Well, I thought I'd like a nice interface as much as anyone, and I also know that to make a 
 machine tag truly useful you need as many people as possible using it. Asking folk to download a script, get a 
@@ -276,7 +277,7 @@ key, and use a command-line interface - or no interface at all - isn't going to 
 
 http://blech.vox.com/library/post/snaptrip-some-thoughts.html
 
-### A Flickr Machine Tag Browser (Paul Mison)
+### Paul Mison: A Flickr Machine Tag Browser
 
 "it's still sufficient for users to see that the astrometry.net system has been able to solve about 85% of the im-
 ages it's processed; that three images have had an ImageMagick Lomo effect applied before upload; the names 
@@ -284,14 +285,14 @@ of Len Peralta's monsters by mail; and where people take screenshots in Second L
 
 http://blech.vox.com/library/post/a-flickr-machine-tag-browser.html
 
-### Flickr Machine Tag Browser on Flickr (Paul Mison)
+### Paul Mison: Flickr Machine Tag Browser on Flickr
 
 This client-side application uses the flickr.machinetags API methods to implement a browser for machine tags 
 in use across the Flickr website.
 
 http://www.flickr.com/services/apps/72157609564084232/
 
-### Thoughts From the Open Platform. (Paul Mison)
+### Paul Mison: Thoughts From the Open Platform.
 
 "More specifically, machine tags are foreign keys. (Well, they can be other things, too. But they're very good at 
 that in particular.) For example, I can imagine a script that adds tags to delicious based on the Guardian's tags 
@@ -304,7 +305,7 @@ http://husk.org/blog/arch/open_platform.html
 Astrotags
 --
 
-### Code: Flickr Developer Blog : “Introducing astrotags”
+### Flickr Developer Blog : "Introducing astrotags"
 
 "Weʼve written about astrotags before, in a couple of posts titled “Found in Space” and “Tags in Space“, and 
 earlier this year Fiona Romeo, Head of Digital Media at the National Maritime Museum, spoke about the Obser-
@@ -322,7 +323,7 @@ the word on."
 
 http://www.vimeo.com/6469344
 
-### Code: Flickr Developer Blog : Found in space
+### Flickr Developer Blog : Found in space
 
 "Needless to say this is one of the coolest uses of Flickr groups and the API that weʼve ever seen. I recently 
 discussed the project with team member Christopher Stumm, since he was the one who had the idea to hook it 
@@ -330,7 +331,7 @@ into Flickr."
 
 http://code.flickr.com/blog/2009/02/18/found-in-space/
 
-### Flickr as Platform: Astronomy Photographer of the Year (Fiona Romeo, Natasha Waterson)
+### Fiona Romeo and Natasha Waterson: Flickr as Platform: Astronomy Photographer of the Year
 
 "To build extra interest, weʼve invited professional astronomers to join the group and curate their own galleries 
 from the pool. Among them will be non-UK and US astronomers and women – so addressing both our aims on 
@@ -393,7 +394,7 @@ wlny.eu/s8a to see our species page about squirrels."
 
 http://www.wildlifenearyou.com/blog/2010/feb/4/tag-flickr-photos/
 
-### Code: Flickr Developer Blog : 5 Questions for Simon Willison
+### Flickr Developer Blog : 5 Questions for Simon Willison
 
 "This is pretty powerful stuff, and itʼs all a natural consequence of writing machine tags back to Flickr." 
 
@@ -435,7 +436,7 @@ openlibrary:inside=, and weʼll just see what happens."
 
 http://blog.openlibrary.org/2009/07/08/small-pieces-loosely-joined/
 
-### Flickr + OpenLibrary = Bookdata goodness (James Bridle)
+### James Bridle: Flickr + OpenLibrary = Bookdata goodness
 
 "I think itʼs really important we start moving beyond covers as the defining “image” of a book - so in particular, I 
 hope people start tagging interior photos. Iʼm also aware of the possible uses at projects like the Book Seer and 
@@ -443,7 +444,7 @@ bkkeepr (as Tom notes), so… well, weʼll wait and see…"
 
 http://booktwo.org/notebook/flickr-openlibrary-bookdata-goodness/
 
-### extra:extra=extra (Tom Taylor)
+### Tom Taylor: extra:extra=extra
 
 "Perhaps augmenting my reading history on Bkkeepr, with photos Iʼve taken of quotes and pages. Or knitting 
 together photos of places with geodata, as a way of letting people explore the places mentioned in stories."
@@ -453,7 +454,7 @@ http://scraplab.net/2009/07/06/extraextraextra/
 Presentations
 --
 
-### Machine Tags (Harry Chen)
+### Harry Chen: Machine Tags
 
 A really fantastic presentation by Harry Chen (ed.)
 
@@ -490,7 +491,7 @@ http://www.frankieroberto.com/weblog/1454
 Dopplr
 --
 
-### Dopplr/Flickr machine-tagging (Magical Nihilism)
+### Matt Jones: Dopplr/Flickr machine-tagging
 
 ""This popped up on Flickr this week I think, and Iʼm finding it quite addictive to create places on Dopplrʼs “Social 
 Atlas” just to be able to nab a shortcode to use as a machine tag on my flickr pictures of lunch and have the 
@@ -565,7 +566,7 @@ http://adactio.com/journal/1548
 Semantic Web
 --
 
-### Buzz Anderson – Meta Tags, The Poor Man's RDF
+### Buzz Anderson: Meta Tags, The Poor Man's RDF
 
 weblog.scifihifi.com/2005/08/05/meta-tags-the-poor-mans-rdf
 
@@ -636,11 +637,11 @@ http://www.flickr.com/groups/wikipedia_loves_art
 
 “Erin has cleaned the entire pool and scored every entry. In some cases, this meant 3 or more machine tags per 
 clean photo. Iʼm sure sheʼll give you the total tomorrow, but the most basic math would indicate something along 
-the lines of 30,000+ machine tags.   Please keep in mind, thatʼs 30,000 tags applied by hand to organize and a 
-pool of 13,000 images.  To say that our plans here didnʼt scale is putting it a bit mildly. Erin, we all seriously owe 
+the lines of 30,000+ machine tags.  Please keep in mind, thatʼs 30,000 tags applied by hand to organize and a 
+pool of 13,000 images. To say that our plans here didnʼt scale is putting it a bit mildly. Erin, we all seriously owe 
 you more than one drink.”
+
 http://www.brooklynmuseum.org/community/blogosphere/bloggers/?p=379
-http://sta.mn/w7
 
 RightScale
 --
@@ -699,7 +700,7 @@ http://flickr.com/groups/encyclopedia_of_life/discuss/72157612488733900/
 Other projects
 --
 
-### Flickr machine tags for film photos (Phil Gyford)
+### Phil Gyford: Flickr machine tags for film photos
 
 http://www.gyford.com/phil/writing/2009/11/04/flickr.php
 
