@@ -261,7 +261,7 @@ Astrotags
 earlier this year Fiona Romeo, Head of Digital Media at the National Maritime Museum, spoke about the Obser-
 vatoryʼs astrotagging project asking the question “whatʼs the space equivalent of geotagging”? at Webstock09."
 
-### Introducing astrotags on Vimeo
+### [Introducing astrotags on Vimeo](http://www.vimeo.com/6469344)
 
 "Astrotags are a new way to label your astronomy photos with their celestial subject and its location. This short 
 film, made by Jim Le Fevre and Mike Paterson for the Royal Observatory's Astronomy Photographer of the Year 
@@ -269,17 +269,13 @@ exhibition, shows you how. So have a watch, then astrotag your pictures at the A
 Year group on Flickr. If everyone joins in we can make a beautiful and accurate map of the night sky... so pass 
 the word on."
 
-http://www.vimeo.com/6469344
-
-### Flickr Developer Blog : Found in space
+### [Flickr Developer Blog : Found in space](http://code.flickr.com/blog/2009/02/18/found-in-space/)
 
 "Needless to say this is one of the coolest uses of Flickr groups and the API that weʼve ever seen. I recently 
 discussed the project with team member Christopher Stumm, since he was the one who had the idea to hook it 
 into Flickr."
 
-http://code.flickr.com/blog/2009/02/18/found-in-space/
-
-### Fiona Romeo and Natasha Waterson: Flickr as Platform: Astronomy Photographer of the Year
+### [Fiona Romeo and Natasha Waterson: Flickr as Platform: Astronomy Photographer of the Year](http://www.archimuse.com/mw2010/papers/romeo/romeo.html)
 
 "To build extra interest, weʼve invited professional astronomers to join the group and curate their own galleries 
 from the pool. Among them will be non-UK and US astronomers and women – so addressing both our aims on 
@@ -289,39 +285,29 @@ science behind the pictures theyʼve chosen, and about their professional work. 
 the active discussions about how to photograph astronomical subjects, and encourage members to create their 
 own Astronomy Photographer of the Year galleries."
 
-http://www.archimuse.com/mw2010/papers/romeo/romeo.html
-
-### Flickr celestial coordinates
+### [Flickr celestial coordinates](http://developer.yahoo.com/hacku/hackuhandler.php?appid=us&op=showhack&hackid=279)
 
 "An open table definition which extends the flickr API to add celestial coordinates, RA and Dec, to flickr photos. 
 Values are parsed from flickr machine tags and returned as a new table, flickr.photos.astro, with columns for 
 photo id, title, url and coordinates. This should allow location-based searching for astro photography."
 
-http://developer.yahoo.com/hacku/hackuhandler.php?appid=us&op=showhack&hackid=279
-
-### Mad Astronomy: The Robot Who Helps Astronomers Identify Stars
+### [Mad Astronomy: The Robot Who Helps Astronomers Identify Stars](http://io9.com/5169232/the-robot-who-helps-astronomers-identify-stars)
 
 "Eventually a group of university researchers created a robot for her who can look at any photograph of a group 
 of stars and figure out where they are, simply by using geometry. The robot exists entirely in software, and lives 
 in the museum's Flickr photo storage account online."
 
-http://io9.com/5169232/the-robot-who-helps-astronomers-identify-stars
+### [Flickr/Google Sky mashup with YQL](http://eatyourgreens.org.uk/testapps/yql/)
 
-### Flickr/Google Sky mashup with YQL
-
-http://eatyourgreens.org.uk/testapps/yql/
-
-### How the Astrometry.net robot works
+### [How the Astrometry.net robot works](http://www.nmm.ac.uk/visit/exhibitions/astronomy-photographer-of-the-year/astro-robot/)
 
 "The Astrometry.net robot makes astrometry much easier! It finds photos of the night sky on Flickr and auto-
 matically annotates them with astronomical information using notes and machine tags."
 
-http://www.nmm.ac.uk/visit/exhibitions/astronomy-photographer-of-the-year/astro-robot/
-
 noticin.gs
 --
 
-### noticings: the blog - Flickr machine tags + more fine features
+### [noticings: the blog - Flickr machine tags + more fine features](http://blog.noticin.gs/post/214569483/flickr-machine-tags-more-fine-features)
 
 "When you add the tag noticings:id=x to your photos, Flickr automatically fetch details of the noticing and its 
 scorings from us and display it alongside the photo. To make this super easy for you to do, Noticings can write 
@@ -329,36 +315,28 @@ these tags for you, so you donʼt even need to it yourself. To turn it on for yo
 on ʻyour accountʼ, and change your machine tag settings. Weʼll start updating your photos within 24 hours, so 
 you might need to wait a while."
 
-http://blog.noticin.gs/post/214569483/flickr-machine-tags-more-fine-features
-
 WildlifeNearYou
 --
 
-### WildlifeNearYou can now tag your Flickr photos for you | WildlifeNearYou
+### [WildlifeNearYou can now tag your Flickr photos for you](http://www.wildlifenearyou.com/blog/2010/feb/4/tag-flickr-photos/)
 
 "The first four machine tags identify which photo, species, trip and place on WildlifeNearYou are associated with 
 the image. The identifiers are the same as the ones we use for our wlny.eu URL shortener, so you can visit 
 wlny.eu/s8a to see our species page about squirrels."
 
-http://www.wildlifenearyou.com/blog/2010/feb/4/tag-flickr-photos/
-
-### Flickr Developer Blog : 5 Questions for Simon Willison
+### [Flickr Developer Blog : 5 Questions for Simon Willison](http://code.flickr.com/blog/2010/02/10/5-questions-for-simon-willison/)
 
 "This is pretty powerful stuff, and itʼs all a natural consequence of writing machine tags back to Flickr." 
-
-http://code.flickr.com/blog/2010/02/10/5-questions-for-simon-willison/
 
 Burning Man
 --
 
-### Flickr Blog: Burning Man Machine Tags
+### [Flickr Blog: Burning Man Machine Tags](http://blog.flickr.net/en/2009/08/28/burning-man-theme-camp-machine-tags/)
 
 "For all of those going to Burning Man this year, you can now tag your photos on Flickr and have them show up 
 on the Burning Man Earth pages for theme camps, events, and art installations."
 
-http://blog.flickr.net/en/2009/08/28/burning-man-theme-camp-machine-tags/
-
-### Burning Man Gets an API (and a Whole Lot More) - O'Reilly Radar
+### [O'Reilly Radar: Burning Man Gets an API (and a Whole Lot More)](http://radar.oreilly.com/2009/08/burning-man-gets-an-api-and-a.html)
 
 "There is also a move to take advantage of Flickr's machine tags. For example if you take a picture of Area 47 
 (with the online directory entry: http://earth.burningman.com/brc/2009/themecamp/2234/) then use 
@@ -366,56 +344,42 @@ burningman:camp=2234. The photo will appear on that locations page. We will see 
 using these machine tags. I suspect that V2 of the iPhone app will add a camera that can apply those tags 
 automatically and that we'll see more uptake then."
 
-http://radar.oreilly.com/2009/08/burning-man-gets-an-api-and-a.html
-
-### "Lookup Burning Man Machine Tags" tool
-
-http://jsbin.com/ogeku/
+### ["Lookup Burning Man Machine Tags" tool](http://jsbin.com/ogeku/)
 
 Open Library
 --
 
-### Open Library Blog ― Small Pieces, Loosely Joined
+### [Open Library Blog ― Small Pieces, Loosely Joined](http://blog.openlibrary.org/2009/07/08/small-pieces-loosely-joined/)
 
 "There was a funny example yesterday, where dumbledad asked whether it was OK to tag this “action shot” of 
 himself reading a book sitting outside with the openlibrary:id= machine tag. The response is, yes! Go for it! Or, 
 create your own machine tag that seems to work for you, perhaps openlibrary:actionshot= or 
 openlibrary:inside=, and weʼll just see what happens."
 
-http://blog.openlibrary.org/2009/07/08/small-pieces-loosely-joined/
-
-### James Bridle: Flickr + OpenLibrary = Bookdata goodness
+### [James Bridle: Flickr + OpenLibrary = Bookdata goodness](http://booktwo.org/notebook/flickr-openlibrary-bookdata-goodness/)
 
 "I think itʼs really important we start moving beyond covers as the defining “image” of a book - so in particular, I 
 hope people start tagging interior photos. Iʼm also aware of the possible uses at projects like the Book Seer and 
 bkkeepr (as Tom notes), so… well, weʼll wait and see…"
 
-http://booktwo.org/notebook/flickr-openlibrary-bookdata-goodness/
-
-### Tom Taylor: extra:extra=extra
+### [Tom Taylor: extra:extra=extra](http://scraplab.net/2009/07/06/extraextraextra/)
 
 "Perhaps augmenting my reading history on Bkkeepr, with photos Iʼve taken of quotes and pages. Or knitting 
 together photos of places with geodata, as a way of letting people explore the places mentioned in stories."
 
-http://scraplab.net/2009/07/06/extraextraextra/
-
 Presentations
 --
 
-### Harry Chen: Machine Tags
+### [Harry Chen: Machine Tags](http://www.slideshare.net/hchen1/machine-tags)
 
 A really fantastic presentation by Harry Chen (ed.)
 
-http://www.slideshare.net/hchen1/machine-tags
-
-### Aaron Straup Cope: rose:rose=rose
-
-http://aaronland.info/talks/hackdayuk07/
+### [Aaron Straup Cope: rose:rose=rose](http://aaronland.info/talks/hackdayuk07/)
 
 Open Plaques
 --
 
-### Open Plaques: Building an 'open content' community from scratch
+### [Open Plaques: Building an 'open content' community from scratch](http://www.archimuse.com/mw2010/abstracts/prg_335002264.html)
 
 "Launching initially at a developer 'Hack Day' in London, Open Plaques (http://www.openplaques.org) aims to 
 be a one-stop resource for information plaques and heritage markers. Data is manually collected and curated 
@@ -423,9 +387,7 @@ by a growing community of enthusiasts, as well as being donated by supportive he
 graphs are added via Flickr, using 'machine tags' which link a photo to an individual plaque (and which also 
 allow geo co-ordinates to be imported)."
 
-http://www.archimuse.com/mw2010/abstracts/prg_335002264.html
-
-### Frankie Roberto: Open Plaques project update
+### [Frankie Roberto: Open Plaques project update](http://www.frankieroberto.com/weblog/1454)
 
 "To link them together, I used special tags called ʻmachine tagsʼ, which are like normal tags except that they 
 contain some slightly more structured data. Itʼs very simple though – each plaque on the Open Plaques website 
@@ -434,31 +396,25 @@ plaque is openplaques:id=999 (where 999 is the ID number). Another script then u
 the photos tagged with a relevant machine tag, checks to see if they are Creative Commons licenced, and then 
 to displays them on the Open Plaques website, with a credit and a link back to the Flickr photo page"
 
-http://www.frankieroberto.com/weblog/1454
-
 Dopplr
 --
 
-### Matt Jones: Dopplr/Flickr machine-tagging
+### [Matt Jones: Dopplr/Flickr machine-tagging](http://magicalnihilism.com/2009/06/20/dopplrflickr-machine-tagging/)
 
 ""This popped up on Flickr this week I think, and Iʼm finding it quite addictive to create places on Dopplrʼs “Social 
 Atlas” just to be able to nab a shortcode to use as a machine tag on my flickr pictures of lunch and have the 
 name of the place appear automagically…"
 
-http://magicalnihilism.com/2009/06/20/dopplrflickr-machine-tagging/
-
-### Dopplr Blog: Help illustrate the Social Atlas on Flickr
+### [Dopplr Blog: Help illustrate the Social Atlas on Flickr](http://blog.dopplr.com/2009/07/06/help-illustrate-the-social-atlas-on-flickr/)
 
 "When you take a picture of a great restaurant, hotel or other place to explore, you can now add a special ʻma-
 chine tag ʼ when you upload it to Flickr. Within minutes, Flickrʼs computers will talk to Dopplrʼs computers and 
 figure out the place you mean, adding a direct link with the correct title on the relevant pages."
- 
-http://blog.dopplr.com/2009/07/06/help-illustrate-the-social-atlas-on-flickr/
 
 Jeremy Keith
 --
 
-### Adactio: Journal―Welcome to the machine tag
+### [Adactio: Journal―Welcome to the machine tag](http://adactio.com/journal/1535)
 
 "Thereʼs something about the mix of rigidity and haphazardness in machine tags that appeals to me. While they 
 all share the same structure, everyone is free to invent their own usage. If machine tags were required to go 
@@ -466,25 +422,17 @@ through a specification process we would have event:lastfm=... and event:upcomin
 lastfm:event=... and upcoming:event=... but really, it simply doesnʼt matter as long as people are actually doing 
 the tagging."
 
-http://adactio.com/journal/1535
-
-### Adactio: Journal - Ghost in the Machine Tags
+### [Adactio: Journal - Ghost in the Machine Tags](http://adactio.com/journal/1274)
 
 "For now, Iʼve gone ahead and integrated Flickr machine tagging here… but this works from the opposite direc-
 tion. Instead of tagging my blog posts with flickr:photo=[ID], Iʼm pulling in any photos on Flickr tagged with 
 adactio:post=[ID]."
 
-http://adactio.com/journal/1274
+### [Adactio: Journal―Small pieces, loosely joined by machine tags](http://adactio.com/journal/1617/)
 
-### Adactio: Journal―Small pieces, loosely joined by machine tags
+### [Adactio: Journal - Machine Tags of Loving Grace](http://adactio.com/journal/1277)
 
-http://adactio.com/journal/1617/
-
-### Adactio: Journal - Machine Tags of Loving Grace
-
-http://adactio.com/journal/1277
-
-### Adactio: Journal―Machine tag browsing
+### [Adactio: Journal―Machine tag browsing](http://adactio.com/journal/1580)
 
 "After I started rewarding machine tagging on Huffduffer with API calls to Amazon and Last.fm, people started 
 using them quite a bit. But when it came to displaying tag clouds, I wasnʼt treating machine tags any differently 
@@ -492,96 +440,68 @@ to other tags. Everything was being displayed in one big cloud. I decided it wou
 chine tags and display them after displaying “regular” tags. That started me thinking about how best to display 
 machine tags."
 
-http://adactio.com/journal/1580
-
-### Adactio: Journal―Machine-tagging Huffduffer
+### [Adactio: Journal―Machine-tagging Huffduffer](http://adactio.com/journal/1547)
 
 "I set aside a little time to do a little hacking with Amazonʼs API. Now you can tag stuff on Huffduffer with ma-
 chine tags like book:author=steven johnson, book:title=the invention of air or music:artist=my morning jacket. 
 Other namespaces are film and movie. Anything matching that pattern will trigger a search on Amazon and 
 display a list of results."
 
-http://adactio.com/journal/1547
-
-### Adactio: Journal―Machine-tagging Huffduffer some more
+### [Adactio: Journal―Machine-tagging Huffduffer some more](http://adactio.com/journal/1548)
 
 "So when I wanted to find a Last.fm userʼs profile picture―having figured out through Googleʼs Social Graph 
 API when someone on Huffduffer has a Last.fm account―it made far more sense for me to use hKit to parse 
 the microformatted public URL than to use the API method."
 
-http://adactio.com/journal/1548
-
 Semantic Web
 --
 
-### Buzz Anderson: Meta Tags, The Poor Man's RDF
+### [Buzz Anderson: Meta Tags, The Poor Man's RDF](http://weblog.scifihifi.com/2005/08/05/meta-tags-the-poor-mans-rdf)
 
-weblog.scifihifi.com/2005/08/05/meta-tags-the-poor-mans-rdf
+### [Geonames, rdf, triplr, json, Yahoo! Pipes and the Semantic Web, oh my!](http://geobloggers.com/2007/03/31/geonames-rdf-triplr-json-yahoo-pipes-and-the-semantic-web-oh-my/)
 
-### Geonames, rdf, triplr, json, Yahoo! Pipes and the Semantic Web, oh my!
-
-http://geobloggers.com/2007/03/31/geonames-rdf-triplr-json-yahoo-pipes-and-the-semantic-web-oh-my/
-
-### Codelog: Freebase, Flickr and Machine Tags
+### [Codelog: Freebase, Flickr and Machine Tags](http://clockwerx.blogspot.com/2009/10/freebase-flickr-and-machine-tags.html)
 
 "I made the Flickr API in Freebase / Acre to a very limited extent (patches welcome!); and then on top of that, 
 did a very basic find things on flickr tagged with wikipedia tags that can be attached to freebase."
 
-http://clockwerx.blogspot.com/2009/10/freebase-flickr-and-machine-tags.html
-
-### RDF-3T - RDF in Machine Tags
+### [RDF-3T - RDF in Machine Tags](http://weborganics.co.uk/RDF-3T/)
 
 "RDF-3T is a Metaformat(a language used to describe another language [3]) that uses a Triple Tag syntax to 
 describe RDF triples in XHTML."
 
-http://weborganics.co.uk/RDF-3T/
-
-### More Tags Released to the Linked Data Cloud - Open Blog - NYTimes.com
+### [More Tags Released to the Linked Data Cloud - NYTimes Open Blog](http://open.blogs.nytimes.com/2010/01/13/more-tags-released-to-the-linked-data-cloud/)
 
 "Like the 5,000 person-name subject headings released last October, we have mapped our latest crop of sub-
 ject headings to DBpedia, Freebase and ― in the case of our geographic subject headings ― GeoNames."
 
-http://open.blogs.nytimes.com/2010/01/13/more-tags-released-to-the-linked-data-cloud/
+### [Geonames machine tags  (GeoNames Blog)](http://geonames.wordpress.com/2007/03/29/geonames-machine-tags/)
 
-### Geonames machine tags  (GeoNames Blog)
+### [danbriʼs foaf stories » Flickr & MusicBrainz Machine tags: If youʼve got it, flaunt it](http://danbri.org/words/2009/03/03/397)
 
-http://geonames.wordpress.com/2007/03/29/geonames-machine-tags/
-
-### danbriʼs foaf stories » Flickr & MusicBrainz Machine tags: If youʼve got it, flaunt it
-
-http://danbri.org/words/2009/03/03/397
-
-### namespace lookup for RDF developers | prefix.cc
+### [namespace lookup for RDF developers | prefix.cc](http://prefix.cc/)
 
 "The intention of this service is to simplify a common task in the work of RDF developers: remembering and 
 looking up URI prefixes."
 
-http://prefix.cc/
-
 Wikipedia
 --
 
-### Wikipedia Machine Tags
+### [Wikipedia Machine Tags](http://hackday.bigmedium.com/about.html)
 
-http://hackday.bigmedium.com/about.html
-
-### Lightning! Blimps! Submarines! And, um, Machine Tags!
+### [Lightning! Blimps! Submarines! And, um, Machine Tags!](http://globalmoxie.com/blog/hackday-wikipedia-machine-tags~print.shtml)
 
 “So my idea was to create a machine-tag format based on Wikipedia topics, allowing any content creator to tag 
 content with any topic in Wikipedia. By using Wikipedia as an index, this format provides very specific identifica-
 tion of content across a vast knowledge domain. Call it the Dewey Decimal System for the web: “The Wiki 
 Decimal System.”
 
-http://globalmoxie.com/blog/hackday-wikipedia-machine-tags~print.shtml
-
-### Flickr: Wikipedia Loves Art
+### [Flickr: Wikipedia Loves Art](http://www.flickr.com/groups/wikipedia_loves_art)
 
 “In order to properly score everyone's entries will be adding machine tags [they:look="like this"] to your photo-
 graphs. So, please don't delete these tags, even if they look a little weird.”
 
-http://www.flickr.com/groups/wikipedia_loves_art
-
-### Brooklyn Museum: Wikipedia Loves Art: Lessons Learned Part 3
+### [Brooklyn Museum: Wikipedia Loves Art: Lessons Learned Part 3](http://www.brooklynmuseum.org/community/blogosphere/bloggers/?p=379)
 
 “Erin has cleaned the entire pool and scored every entry. In some cases, this meant 3 or more machine tags per 
 clean photo. Iʼm sure sheʼll give you the total tomorrow, but the most basic math would indicate something along 
@@ -589,12 +509,10 @@ the lines of 30,000+ machine tags.  Please keep in mind, thatʼs 30,000 tags app
 pool of 13,000 images. To say that our plans here didnʼt scale is putting it a bit mildly. Erin, we all seriously owe 
 you more than one drink.”
 
-http://www.brooklynmuseum.org/community/blogosphere/bloggers/?p=379
-
 RightScale
 --
 
-### RightScale Release: RackSpace, RightLink, Chef, Machine Tags, VPC, and more!
+### [RightScale Release: RackSpace, RightLink, Chef, Machine Tags, VPC, and more!](http://blog.rightscale.com/2009/09/16/rackspace-rightlink-chef-machine-tags-vpc/)
 
 "But thereʼs more! Weʼve started to add Flickr style machine tags to RightScale resources. A machine tag is a 
 tag that follows a special triplet syntax of namespace:predicate=value and the purpose of machine tags is to 
@@ -606,9 +524,7 @@ stripes. Weʼll soon use tags to encode the features provided by images, e.g. wh
 port RightLink, support the freezing of repositories, etc. But most importantly weʼll add API access to tags so 
 you can attach your automation to tags."
 
-http://blog.rightscale.com/2009/09/16/rackspace-rightlink-chef-machine-tags-vpc/
-
-### RightScale ServerTemplate Library and Machine Tags - RightScale Blog
+### [RightScale ServerTemplate Library and Machine Tags - RightScale Blog](http://blog.rightscale.com/2009/10/28/rightscale-servertemplate-library-and-machine-tags/)
 
 "We introduced Flickr style machine tags recently and weʼre expanding their use with this release. One of the 
 really exciting new features is that servers now have tags and weʼve integrated the tags with the routing of mes-
@@ -620,30 +536,22 @@ ployment with a “loadbalancer:lb=www” tag to run a Chef recipe that adds the
 rotation. This way, the app server doesnʼt need to know which or how many load balancers there are. The tag 
 matching, communication, and running of the Chef recipe are all done by the RightLink agents."
 
-http://blog.rightscale.com/2009/10/28/rightscale-servertemplate-library-and-machine-tags/
-
 Encyclopedia of Life
 
-### Encyclopedia of Life - taxonomic links
+### [Encyclopedia of Life - taxonomic links](http://www.eol.org/content/news)
 
 "Give us your feedback on the new taxonomic URLs that we are trialling. Just add the name (Latin or vernacu-
 lar) of the organism to the link: www.eol.org/platypus or www.eol.org/lugworm." -- EOL has no permalinks for 
 news items; just linking to ...uh the news page so I have something to store in del.
 
-http://www.eol.org/content/news
-
-### Flickr: Encyclopedia of Life Images
+### [Flickr: Encyclopedia of Life Images](http://www.flickr.com/groups/encyclopedia_of_life/)
 
 "The image is tagged using machine tags with the scientific name of the organism(s) featured..."
 
-http://www.flickr.com/groups/encyclopedia_of_life/
-
-### Flickr: Discussing List of acceptable machine tags in Encyclopedia of Life Images
+### [Flickr: Discussing List of acceptable machine tags in Encyclopedia of Life Images](http://flickr.com/groups/encyclopedia_of_life/discuss/72157612488733900/)
 
 "Here is the official list of machine-readable tags recommended for the group. To suggest improvements, leave 
 a message in the Machine tag thread."
-
-http://flickr.com/groups/encyclopedia_of_life/discuss/72157612488733900/
 
 Other projects
 --
