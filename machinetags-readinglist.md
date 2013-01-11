@@ -1,7 +1,7 @@
 [Introducing Machine Tags](http://www.flickr.com/groups/api/discuss/72157594497877875)
 --
 
-_This is an excepted version of a piece originally published on Flickr, 24 January 2007_
+_This is an excepted version of a piece originally published on the Flickr developers weblog, 24 January 2007_
 
 ### What are machine tags?
 
@@ -556,172 +556,120 @@ a message in the Machine tag thread."
 Other projects
 --
 
-### Phil Gyford: Flickr machine tags for film photos
+### [Phil Gyford: Flickr machine tags for film photos](http://www.gyford.com/phil/writing/2009/11/04/flickr.php)
 
-http://www.gyford.com/phil/writing/2009/11/04/flickr.php
-
-### Typedia: Blog: Machine Tags for Type
+### [Typedia: Blog: Machine Tags for Type](http://typedia.com/blog/post/machine-tags-for-type/)
 
 "Working with the folks at Flickr and smart gents like Tom Coates, weʼve defined a set of machine tags that will 
 specify a good chunk of the information about the type in an image. Even if the minimum you feel comfortable 
 tagging a photo with is the “face” machine tag, it will go a long way towards making Typedia more useful. Hereʼs 
 the syntax for tagging a typeface, style, foundry, and designer:"
 
-http://typedia.com/blog/post/machine-tags-for-type/
-
-### Inside Photophlow: an interview with Neil Berkman
+### [Inside Photophlow: an interview with Neil Berkman](http://code.flickr.com/blog/2008/04/24/inside-photophlow-an-interview-with-neil-berman/)
 
 “One of my favorite features makes use of  machine tags. We let you specify custom “photo emotes” – for ex-
 ample if you type /smile as a chat message weʼll show a photo youʼve tagged as  phlow:emote=smile.”
 
-http://code.flickr.com/blog/2008/04/24/inside-photophlow-an-interview-with-neil-berman/
-
-### The Code4Lib Journal - Developing an Academic Image Collection with Flickr
-
-http://journal.code4lib.org/articles/74
+### [The Code4Lib Journal - Developing an Academic Image Collection with Flickr](http://journal.code4lib.org/articles/74)
 
 Theory and practice
 --
 
-### Flickr: Machine Tags Group
+### [Flickr: Machine Tags Group](http://www.flickr.com/groups/mtags/)
 
 "Discussion of the new machine tags feature in the Flickr API and possibly the development of a standardized 
 system."
 
-http://www.flickr.com/groups/mtags/
-
-### ActiveState Launches New and Improved Code Site | ActiveState Blog
+### [ActiveState Launches New and Improved Code Site](http://blogs.activestate.com/2010/02/activestate-launches-new-and-improved-code-site/)
 
 "Improved tagging – Including the addition of structured tags (also known as machine tags) to allow contributors 
 to be more precise in how they tag and make searching for specific recipes more effective." -- why did no one 
 tell me about this?
 
-http://blogs.activestate.com/2010/02/activestate-launches-new-and-improved-code-site/
-
-### Speaking and writing webscale identifiers (Jon Udell)
+### [Jon Udell: Speaking and writing webscale identifiers](http://blog.jonudell.net/2009/09/17/speaking-and-writing-webscale-identifiers/)
 
 "Iʼve long imagined a class of equivalence services that would help us bridge the gap between vocabularies we 
 can speak and write and those weʼll never speak and need help to write."
 
-http://blog.jonudell.net/2009/09/17/speaking-and-writing-webscale-identifiers/
-
-### Joining web namespaces (Jon Udell)
+### [Jon Udell: Joining web namespaces](http://blog.jonudell.net/2010/03/09/joining-web-namespaces/)
 
 "It would be straightforward to create a service that would take the Yahoo Pipes trick to the next level. Instead of 
 editing and saving a Yahoo Pipe, youʼd just command that service to merge the set of feeds for some tag. That 
 command might best take the form of a URL:"
 
-http://blog.jonudell.net/2010/03/09/joining-web-namespaces/ 
-
-### Unthinkingly.com » Archive » “Slashtags” for citizen editors
+### [Unthinkingly.com: “Slashtags” for citizen editors](http://unthinkingly.com/2009/11/09/slashtags-for-citizen-editors/)
 
 "Common opinion seems to be that they are too “dorky” to be usable at this point, considering especially that 
 any good taxonomy is constantly in slight flux. (Though Flickr has made great use of them to kick of custom 
 actions in their UI)."
 
-http://unthinkingly.com/2009/11/09/slashtags-for-citizen-editors/
-
-### FaceTaggr on Flickr 
+### [FaceTaggr on Flickr](http://www.flickr.com/photos/tehf0x/3999116128/in/pool-flickrhacks/)
 
 "Yahoo Open Hack Day ʻ08 took place this weekend (a year ago), and although employees & interns arenʼt 
 supposed to produce a hack, I did it anyways (take that!). Itʼs nothing big, I wrote a greasemonkey script that 
 will add a list of your contacts on a flickr photo page. When you click on the personʼs name, a machine tag of 
 their flickr username will be added to the photo. I call it facetaggr."
 
-http://www.flickr.com/photos/tehf0x/3999116128/in/pool-flickrhacks/
-
-### Flickr: Discussing "Friends on Flickr" for Facebook in Flickr API
+### [Flickr: Discussing "Friends on Flickr" for Facebook in Flickr API](http://www.flickr.com/groups/api/discuss/72157615334960342/)
 
 "I've developed a Facebook Platform application for Flickr users called "Friends on Flickr" that focuses on 
 Facebook friend tagging of Flickr photos using machine tags and a simple, straightforward profile tab for sharing 
 both your own public content and content tagged with your Facebook id in the larger public repository."
 
-http://www.flickr.com/groups/api/discuss/72157615334960342/
-
-### DiSo / activity-streams-machine-tags
+### [DiSo / activity-streams-machine-tags](http://wiki.diso-project.org/activity-streams-machine-tags)
 
 "strict parsers tend to throw out stuff they don't recognize, and machine tags, encapsulated in Atom category 
 elements, would maintain their fidelity over time"
 
-http://wiki.diso-project.org/activity-streams-machine-tags
-
-### Machine tagging relationships | FactoryCity
+### [Machine tagging relationships | FactoryCity](http://factoryjoe.com/blog/2008/05/25/machine-tagging-relationships/)
 
 "By machine tagging relationships, not only do we maintain the fidelity of the relationship with context, but we 
 inherit a means of querying against this dataset in a way that maps to the origin of the relationship." 
 
-http://factoryjoe.com/blog/2008/05/25/machine-tagging-relationships/
-
-### Flickr: Discussing Commons Curator in Flickr Commons
+### [Flickr: Discussing Commons Curator in Flickr Commons](http://flickr.com/groups/flickrcommons/discuss/72157611394509319/)
 
 "Develop a collection you'd like to see, and tag images in that set with the machinetag 
 commons:collection="your-slug-here". Slugs can be anything, provided they are only lowercase letters and 
 hyphens (just for ease-of-coding)"
 
-http://flickr.com/groups/flickrcommons/discuss/72157611394509319/
+### [Blogging Section of SLA-IT: Flickr Machine Tags](http://sla-divisions.typepad.com/itbloggingsection/2008/07/flickr-machine.html)
 
-### Blogging Section of SLA-IT: Flickr Machine Tags
-
-http://sla-divisions.typepad.com/itbloggingsection/2008/07/flickr-machine.html
-
-### about Scriblio : Spelling Suggestions & Machine Tags
+### [about Scriblio : Spelling Suggestions & Machine Tags](http://about.scriblio.net/scribbles/108)
 
 "The machine tag support will allow fixing of records and even original cataloging inside Scriblio. ... The catalog-
 ing for Beyond Brown Paper archive is done entirely in machine tags."
 
-http://about.scriblio.net/scribbles/108
+### [Micah Dubinko: Machine tags](http://dubinko.info/blog/2008/01/23/machine-tags/)
 
-### Push Button Paradise | Blog Archive | Machine tags
-
-http://dubinko.info/blog/2008/01/23/machine-tags/
-
-### Amazon SimpleDB thoughts - snarfed.org
+### [Amazon SimpleDB thoughts - snarfed.org](http://snarfed.org/space/amazon+simpledb+thoughts)
 
 "tuplespaces"
 
-http://snarfed.org/space/amazon+simpledb+thoughts
+### [Messing Around With Metadata - Open - Code - New York Times Blog](http://open.blogs.nytimes.com/2007/10/23/messing-around-with-metadata/)
 
-### Messing Around With Metadata - Open - Code - New York Times Blog
+### [Hack Day: Machine Tags : Meaningful Data](http://meaningfuldata.wordpress.com/2007/06/21/hack-day-machine-tags/)
 
-http://open.blogs.nytimes.com/2007/10/23/messing-around-with-metadata/
+### [Brain Off : Hacking Google Street View](http://brainoff.com/weblog/2007/06/03/1253)
 
-### Hack Day: Machine Tags : Meaningful Data
-
-http://meaningfuldata.wordpress.com/2007/06/21/hack-day-machine-tags/
-
-### Brain Off : Hacking Google Street View
-
-http://brainoff.com/weblog/2007/06/03/1253
-
-### Machine tags and ISBNs | clagnut/blog
+### [Machine tags and ISBNs | clagnut/blog](http://clagnut.com/blog/1907/)
 
 "Is an ISO namespace something likely to be used in the future? Is it fatally flawed, and if so how would you 
 suggest machine tagging ISBNs instead?"
 
-http://clagnut.com/blog/1907/
-
-### Caroline Mockett: Flickr And Self-Referential Folksonomy
+### [Caroline Mockett: Flickr And Self-Referential Folksonomy](http://cazmockett.blogspot.com/2007/02/flickr-and-self-referential-folksonomy.html)
 
 "As long as you know that a person in one of your pictures is a Flickr member, you ought to be able to drag their 
 icon onto a picture to set up the tagging, even if they are not in your friends, family or contact lists"
 
-http://cazmockett.blogspot.com/2007/02/flickr-and-self-referential-folksonomy.html
+### [Rise of the machine tags](http://ebiquity.umbc.edu/blogger/2007/01/28/rise-of-the-machine-tags/)
 
-### Rise of the machine tags
+### [dystmesis  : Fields are from Mars and Tags are from Venus: oh really?](http://dystmesis.net/2007/01/26/fields-are-from-mars-and-tags-are-from-venus-oh-really/)
 
-http://ebiquity.umbc.edu/blogger/2007/01/28/rise-of-the-machine-tags/
-
-### dystmesis  : Fields are from Mars and Tags are from Venus: oh really?
-
-http://dystmesis.net/2007/01/26/fields-are-from-mars-and-tags-are-from-venus-oh-really/
-
-### cldwalker's has_machine_tags at master - GitHub
+### [cldwalker's has_machine_tags at master - GitHub](http://github.com/cldwalker/has_machine_tags/tree/master)
 
 "A rails tagging plugin implementing flickr's machine tags + maybe more (semantic tags)"
 
-http://github.com/cldwalker/has_machine_tags/tree/master
-
-### Newspaper mtags bookmarklet
+### [Newspaper mtags bookmarklet](http://semweb-helper.appspot.com/)
 
 "This is just a simple helper script that generates machine tags from an article on the National Library of Austra-
 lia's Australian Newspapers site. Just drag this Newspaper mtags bookmarklet to your bookmarks toolbar, find 
@@ -729,41 +677,29 @@ an article, then click on the bookmarklet. This page will open with easy-to-use,
 to do your bidding. The machine tags will enable you to assert a semantic relationship between the item that 
 you tag and the newspaper article."
 
-http://semweb-helper.appspot.com/
-
-### Machine Tags in Drupal - Dan Karran's blog
+### [Machine Tags in Drupal - Dan Karran's blog](http://www.dankarran.com/blog/archives/2007/01/27/machine_tags_in_drupal.php)
 
 "I think what's really needed is a Machine tags module that plugs into the existing taxonomy system which is in 
 the core of Drupal."
 
-http://www.dankarran.com/blog/archives/2007/01/27/machine_tags_in_drupal.php
-
-### Machine Tags module for Drupal
+### [Machine Tags module for Drupal](http://drupal.org/project/machine_tags)
 
 "The machine tags module is meant to fill a void between people-friendly tagging and machine-friendly hierar-
 chy."
 
-http://drupal.org/project/machine_tags
-
-### Amazon Machine Tags | Plugins
+### [Amazon Machine Tags | Plugins](http://www.blogdev.info/bd/wordpress/plugins/amazon-machine-tags.htm)
 
 "Identifies any tag in the machine or triple tag form book:isbn=1234567890 or amazon:asin=1234567890. 
 Works with native tags from WordPress 2.3 and later, Bunnyʼs Technorati Tags, and Jeromeʼs Keywords."
 
-http://www.blogdev.info/bd/wordpress/plugins/amazon-machine-tags.htm
-
-### Midgard gets geotagging/machine tags
+### [Midgard gets geotagging/machine tags](http://bergie.iki.fi/blog/midgard_weekly_summary-68-march_2nd_2007.html)
 
 "Midgard gets geotagging. Midgard's geo capabilities have now been amended by supporting the Flickr-style 
 machine tags. This enables people submitting content to Midgard via email or for example Flickr integration to 
 position and tag their content easily.”
 
-http://bergie.iki.fi/blog/midgard_weekly_summary-68-march_2nd_2007.html
-
-### Flickr Machine Tags and Amarok - neofreko's posterous
+### [Flickr Machine Tags and Amarok - neofreko's posterous](http://neofreko.posterous.com/flickr-machine-tags-and-amarok)
 
 "As we all know, Amarok 2.1 comes with a snazzy Photo widget[3]. This widget will pull photos from flickr, re-
 lated to the currently playing song. But what a little bit disappointing is how it pull non relevant photos. But don't 
 fret, we have machine tags[1] in Flickr."
-
-http://neofreko.posterous.com/flickr-machine-tags-and-amarok
