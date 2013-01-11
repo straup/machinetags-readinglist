@@ -1,31 +1,7 @@
-machinetags-readinglist
-==
-
-This document was originally compiled for the [Machine Tags: Theory, Working Code and Gotchas (and Robots!)](http://aaronland.info/talks/mw10_machinetags/) workshop at the 2010 Museums and the Web conference, in Denver. This is what I wrote at the time:
-
-_This is an outrageously long reading list. It is not expected that youʼll sit down one day and diligently visit each 
-site. Rather, I hope that you will hang on to this list as something you might think to look at over coffee or while youʼre 
-waiting for another task to complete and it will stir your imagination and send you off in an entirely other direction. People 
-really have said this much about “machine tags” and it really is this varied and
-this interesting!_ 
-
-This is an early draft and re-jiggering of that original document which was
-produced as a PDF file. The formatting (as Markdown) probably still needs some
-finessing.
-
-The order and structure of the content reflects how I chose arrange this in
-document 2010. There's nothing precious about and it is entirely open to being
-changed, especially as new entries are added.
-
-Sadly, there's probably a some amount of linkrot so it might be worth archiving
-local copies of links (somewhere in this repository).
-
-Introducing Machine Tags
+[Introducing Machine Tags](http://www.flickr.com/groups/api/discuss/72157594497877875)
 --
 
-This is an excepted version of a piece originally published on Flickr, 24 January 2007
-
-http://www.flickr.com/groups/api/discuss/72157594497877875
+_This is an excepted version of a piece originally published on Flickr, 24 January 2007_
 
 ### What are machine tags?
 
@@ -118,7 +94,6 @@ properties :
 
 	{"machine_tags" => "dc:"}
 
-
 #### Find photos with a title in the 'dc' namespace :
 
 	{"machine_tags" => "dc:title="}
@@ -174,45 +149,42 @@ See also : http://weblog.scifihifi.com/2005/08/05/meta-tags-the-poor-mans-rdf
 
 RDF Describes Flickr. That's really all you need to know about RDF. 
 
-The story we (flickr) told ourselves
+The story we (Flickr) told ourselves
 ==
 
-### Introducing Machine Tags
+### [Introducing Machine Tags](http://www.flickr.com/groups/api/discuss/72157594497877875/)
 
 "We are rolling out a new feature called "machine tags" that allows users to be more precise in how they tag, 
 and how they search, their photos."
 
-http://www.flickr.com/groups/api/discuss/72157594497877875/
+### [Flickr Developer Blog » Machine Tags, last.fm and RockʼnʼRoll](http://code.flickr.com/blog/2008/08/28/machine-tags-lastfm-and-rocknroll/)
 
-### Flickr Developer Blog » Machine Tags, last.fm and RockʼnʼRoll
+"“As a geek I’m quite intrigued by Flickr’s machine tags feature we’re using to
+create this Last.fm/Flickr integration — it can become the basis for a number of
+interesting Flickr tools, and I’m confident people will come up with all kind of
+great ideas. (I’m personally waiting for someone to develop a Flickr tool to
+automatically geotag your event photos based on the venue address provided by
+Last.fm)."
 
-http://code.flickr.com/blog/2008/08/28/machine-tags-lastfm-and-rocknroll/
-
-### Flickr Developer Blog: Wildcard Machine Tag URLs
+### [Flickr Developer Blog: Wildcard Machine Tag URLs](http://code.flickr.com/blog/2008/07/18/wildcard-machine-tag-urls/)
 
 "Which brings us to the part where I tell you that weʼve added the ability to search for machine tagged photos in 
 plain old tag URLs (as well as in tag searches on the Flickr search page) using the facetted query syntax that 
 has always been available in the API."
 
-http://code.flickr.com/blog/2008/07/18/wildcard-machine-tag-urls/
-
-### Flickr Developer Blog : Machine Tag Hierarchies
+### [Flickr Developer Blog : Machine Tag Hierarchies](http://code.flickr.com/blog/2008/12/15/machine-tag-hierarchies/)
 
 "For example, lots of people have added exif: related machine tags to their photos but there hasnʼt been a way 
 to know what kind of EXIF data has been added: exif:model? exif:focal_length? exif:tunablaster? Or what about 
 all the planespotters who have been diligently adding machine tags to their photos using the aero namespace: 
 What are the predicates that theyʼre tagging their photos with?"
 
-http://code.flickr.com/blog/2008/12/15/machine-tag-hierarchies/
-
-### Flickr Developer Blog : extra:extra=extra
+### [Flickr Developer Blog : extra:extra=extra](http://code.flickr.com/blog/2009/07/06/extraextraextra/)
 
 "Machine tag 'extras' are what we call the entire process of using a machine tag as a kind of foreign key to 
 access data stored on another website. Small pieces (of data) loosely joined (by the Internets)."
 
-http://code.flickr.com/blog/2009/07/06/extraextraextra/
-
-### Flickr Developer Blog: Thatʼs maybe a bit too dorky, even for us.
+### [Flickr Developer Blog: Thatʼs maybe a bit too dorky, even for us.](http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/)
 
 "The technical terms for this process is “Adding the machine tags extra love“. You may have noticed that there 
 are a bunch of other key-value pairs in that example, like the name of the architect, that we donʼt do anything 
@@ -221,9 +193,7 @@ features in OSM is a bit daunting in scope and constantly changing. It would be 
 keep pace with the discussions and the churn but thatʼs just not going to happen. If nothing else, the transla-
 tions alone would become unmanageable."
 
-http://code.flickr.com/blog/2009/09/28/thats-maybe-a-bit-too-dorky-even-for-us/
-
-### Flickr Developer Blog: Small Bridges (to Proximate Spaces)
+### [Flickr Developer Blog: Small Bridges (to Proximate Spaces)](http://code.flickr.com/blog/2009/10/19/small-bridges-to-proximate-spaces/)
 
 "You can either add the special machine tag yourself or ask noticin.gs to do it for you automatically. To enable 
 automagic machine tagging youʼll need to log in to noticin.gs and change the default settings. If youʼre worried 
@@ -231,24 +201,18 @@ about creating yet another account for an yet another online service, donʼt be:
 API itself to manage user accounts so “logging in” is as simple as authorizing noticin.gs to access your Flickr 
 account (the way you would any other Flickr API application)."
 
-http://code.flickr.com/blog/2009/10/19/small-bridges-to-proximate-spaces/
-
 Stuff that's influenced me along the way
 --
 
-### Simon Willisonʼs notes from Tom Coatesʼ "Native to a Web of Data"
+### [Simon Willisonʼs notes from Tom Coatesʼ "Native to a Web of Data"](http://simonwillison.net/notes/2006/summit/coates.txt)
 
 "Start designing with data (objects), not with pages"
 
-http://simonwillison.net/notes/2006/summit/coates.txt
-
-### Dave Beckett : Semantics Through the Tag
+### [Dave Beckett : Semantics Through the Tag](http://xtech06.usefulinc.com/schedule/paper/135)
 
 "[H]ow to go from a Tag to the Semantics that a human can understand."
 
-http://xtech06.usefulinc.com/schedule/paper/135
-
-### Matt Biddulph: Mobile Social Location
+### [Matt Biddulph: Mobile Social Location](http://www.slideshare.net/mattb/mobile-social-location)
 
 "Concordance A major problem when you work with disparate large datasets is mapping information from data-
 set to dataset. A concordance between two datasets (e.g. mapping from Yahooʼs WOE place IDs to Geonames 
@@ -256,43 +220,31 @@ IDs) allows us to combine data in interesting new ways. Flickr is implicitly bui
 their machine tag integrations. A photo of a restaurant in San Francisco may have tags indicating its IDs both in 
 Foursquare and in Dopplr. Hopefully theyʼll open up this concordance data through their API eventually."
 
-http://www.slideshare.net/mattb/mobile-social-location
-
-### Dr. Macro's XML Rants: I was wrong (sort of) about namespaces
-
-http://drmacros-xml-rants.blogspot.com/2006/02/i-was-wrong-sort-of-about-namespaces.html
+### [Dr. Macro's XML Rants: I was wrong (sort of) about namespaces](http://drmacros-xml-rants.blogspot.com/2006/02/i-was-wrong-sort-of-about-namespaces.html)
 
 Paul Mison
 --
 
-### Paul Mison: Flickr, EXIF, Machine Tags
+### [Paul Mison: Flickr, EXIF, Machine Tags](http://blech.vox.com/library/post/flickr-exif-machine-tags.html)
 
-http://blech.vox.com/library/post/flickr-exif-machine-tags.html
-
-### Paul Mison: Snaptrip: some thoughts
+### [Paul Mison: Snaptrip: some thoughts](http://blech.vox.com/library/post/snaptrip-some-thoughts.html)
 
 "Why a website? Well, I thought I'd like a nice interface as much as anyone, and I also know that to make a 
 machine tag truly useful you need as many people as possible using it. Asking folk to download a script, get a 
 key, and use a command-line interface - or no interface at all - isn't going to work."
 
-http://blech.vox.com/library/post/snaptrip-some-thoughts.html
+### [Paul Mison: A Flickr Machine Tag Browser](http://blech.vox.com/library/post/a-flickr-machine-tag-browser.html)
 
-### Paul Mison: A Flickr Machine Tag Browser
-
-"it's still sufficient for users to see that the astrometry.net system has been able to solve about 85% of the im-
+"[I]t's still sufficient for users to see that the astrometry.net system has been able to solve about 85% of the im-
 ages it's processed; that three images have had an ImageMagick Lomo effect applied before upload; the names 
 of Len Peralta's monsters by mail; and where people take screenshots in Second Life."
 
-http://blech.vox.com/library/post/a-flickr-machine-tag-browser.html
-
-### Paul Mison: Flickr Machine Tag Browser on Flickr
+### [Paul Mison: Flickr Machine Tag Browser on Flickr](http://www.flickr.com/services/apps/72157609564084232/)
 
 This client-side application uses the flickr.machinetags API methods to implement a browser for machine tags 
 in use across the Flickr website.
 
-http://www.flickr.com/services/apps/72157609564084232/
-
-### Paul Mison: Thoughts From the Open Platform.
+### [Paul Mison: Thoughts From the Open Platform.](http://husk.org/blog/arch/open_platform.html)
 
 "More specifically, machine tags are foreign keys. (Well, they can be other things, too. But they're very good at 
 that in particular.) For example, I can imagine a script that adds tags to delicious based on the Guardian's tags 
@@ -300,18 +252,14 @@ for their own stories, but prefixed with "guardian:" or "guardian:tag=" so that 
 snaptrip links Flickr to Dopplr, like the popular lastfm: and upcoming: machine tags, while the recently-launched 
 Friends on Flickr Facebook app uses, guess what, facebook:user= machine tags."
 
-http://husk.org/blog/arch/open_platform.html
-
 Astrotags
 --
 
-### Flickr Developer Blog : "Introducing astrotags"
+### [Flickr Developer Blog : "Introducing astrotags"](http://code.flickr.com/blog/2009/09/16/introducing-astrotags/)
 
 "Weʼve written about astrotags before, in a couple of posts titled “Found in Space” and “Tags in Space“, and 
 earlier this year Fiona Romeo, Head of Digital Media at the National Maritime Museum, spoke about the Obser-
 vatoryʼs astrotagging project asking the question “whatʼs the space equivalent of geotagging”? at Webstock09."
-
-http://code.flickr.com/blog/2009/09/16/introducing-astrotags/
 
 ### Introducing astrotags on Vimeo
 
