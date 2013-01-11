@@ -6,8 +6,19 @@ This document was originally compiled for the [Machine Tags: Theory, Working Cod
 _This is an outrageously long reading list. It is not expected that youʼll sit down one day and diligently visit each 
 site. Rather, I hope that you will hang on to this list as something you might think to look at over coffee or while youʼre 
 waiting for another task to complete and it will stir your imagination and send you off in an entirely other direction. People 
-really have said this much about “machine tags” and it really is this varied and this interesting!_
+really have said this much about “machine tags” and it really is this varied and
+this interesting!_ 
 
+This is an early draft and re-jiggering of that original document which was
+produced as a PDF file. The formatting (as Markdown) probably still needs some
+finessing.
+
+The order and structure of the content reflects how I chose arrange this in
+document 2010. There's nothing precious about and it is entirely open to being
+changed, especially as new entries are added.
+
+Sadly, there's probably a some amount of linkrot so it might be worth archiving
+local copies of links (somewhere in this repository).
 
 Introducing Machine Tags
 --
@@ -249,6 +260,9 @@ http://www.slideshare.net/mattb/mobile-social-location
 ### Dr. Macro's XML Rants: I was wrong (sort of) about namespaces
 
 http://drmacros-xml-rants.blogspot.com/2006/02/i-was-wrong-sort-of-about-namespaces.html
+
+Paul Mison
+--
 
 ### Flickr, EXIF, Machine Tags (Paul Mison)
 
